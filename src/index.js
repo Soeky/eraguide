@@ -1,12 +1,61 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+import TutorialPage from './Pages/App';
+import AutomatPage from './Pages/Automat';
+import BefehlPage from './Pages/Befehl';
+import PipelinePage from './Pages/Pipeline';
+import BddPage from './Pages/Bdd';
+import AigPage from './Pages/Aig';
+import SatPage from './Pages/Sat';
+import KontaktPage from './Pages/Kontakt';
+
+
+
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <TutorialPage />,
+    errorElement: <TutorialPage />,
+  },
+  {
+    path: '/automat',
+    element: <AutomatPage />,
+  },
+  {
+    path: '/befehl',
+    element: <BefehlPage />,
+  },
+  {
+    path: '/pipeline',
+    element: <PipelinePage />,
+  },
+  {
+    path: '/bdd',
+    element: <BddPage />,
+  },
+  {
+    path: '/aig',
+    element: <AigPage />,
+  },
+  {
+    path: '/sat',
+    element: <SatPage />,
+  },
+  {
+    path: '/kontakt',
+    element: <KontaktPage />,
+  }
+]);
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 
