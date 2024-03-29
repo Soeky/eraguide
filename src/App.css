@@ -21,3 +21,18 @@ body {
   width: 250px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+.ant-menu-item-selected {
+  background-color: #5c7d7d !important;
+  color: #000 !important;
+  font-size: 16px;
+}
+
+.ant-menu {
+  background-color: #2f4040 !important;
+  font-size: 16px;
+}
+
+.ant-menu-item-icon {
+  font-size: 16px !important;
+}

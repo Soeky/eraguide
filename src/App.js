@@ -19,7 +19,7 @@ function App() {
   return (
     <div className='navigation'>
 
-      <Menu className="Navbar"
+      <Menu
         onClick={({ key }) => {
           navigate(key);
         }}
