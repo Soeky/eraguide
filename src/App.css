@@ -36,3 +36,7 @@ body {
 .ant-menu-item-icon {
   font-size: 16px !important;
 }
+
+.InputTopLeft {
+  margin: 10px;
+}
