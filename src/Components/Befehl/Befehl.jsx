@@ -19,7 +19,7 @@ function Befehl() {
 		<div className="BefehlInputContainer">
 			<div className="BefehlInputSection">
 				<TextArea placeholder="Input RISC-V Commands"></TextArea>
-				<Button icon={<UploadOutlined />} type="primary" onClick={buttonCompileCommands}>Compile RISC-V Commands</Button>
+				<Button icon={<UploadOutlined />} type="primary" >Compile RISC-V Commands</Button>
 			</div>
 			<div className="BefehlFileSection">
 				<Upload multiple={false}>
