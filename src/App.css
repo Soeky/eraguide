@@ -37,6 +37,27 @@ body {
   font-size: 16px !important;
 }
 
-.InputTopLeft {
-  margin: 10px;
+.BefehlInputContainer {
+  padding: 20px;
+}
+
+.BefehlInputSection textarea {
+  margin-bottom: 15px;
+}
+
+.BefehlInputSection button {
+  margin-bottom: 15px;
+}
+
+.BefehlFileSection {
+  margin: 0px;
+
+}
+
+.BefehlFileSection button {
+  margin-bottom: 15px;
+}
+
+.BefehlOutputSection p {
+  margin: 0px;
 }
